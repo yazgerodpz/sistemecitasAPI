@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,52 +19,48 @@
       "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:models\\horariosempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\dto\\horariosempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:dto\\horariosempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\controllers\\historialcambioscitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:controllers\\historialcambioscitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\dto\\historialcambioscitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:dto\\historialcambioscitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\controllers\\horariosempleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:controllers\\horariosempleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\dto\\citadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:dto\\citadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\sistemecitasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3E47917C-DA61-461D-AC97-F3F20FD62DAA}|sistemecitasAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\HorariosEmpleadoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\HorariosEmpleadoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\HorariosEmpleadoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HorariosEmpleadoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\HistorialCambiosCitaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HistorialCambiosCitaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\HistorialCambiosCitaDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\HistorialCambiosCitaDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\CitaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CitaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\CitaDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\CitaDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\EmpleadoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\EmpleadoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\EmpleadoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\EmpleadoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\ClienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ClienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\ClienteDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\ClienteDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 160,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HorariosEmpleadoDto.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\HorariosEmpleadoDto.cs",
               "RelativeDocumentMoniker": "Dto\\HorariosEmpleadoDto.cs",
@@ -94,12 +94,11 @@
               "RelativeToolTip": "Dto\\HorariosEmpleadoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:18:00.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T02:18:00.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HorariosEmpleado.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Models\\HorariosEmpleado.cs",
               "RelativeDocumentMoniker": "Models\\HorariosEmpleado.cs",
@@ -107,38 +106,36 @@
               "RelativeToolTip": "Models\\HorariosEmpleado.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:16:56.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T02:16:56.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ServicioController.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\ServicioController.cs",
               "RelativeDocumentMoniker": "Controllers\\ServicioController.cs",
               "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\ServicioController.cs",
               "RelativeToolTip": "Controllers\\ServicioController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowBIAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAiwG0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:57:45.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T07:01:05.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T07:01:05.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SistemaCitasContext.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Models\\SistemaCitasContext.cs",
               "RelativeDocumentMoniker": "Models\\SistemaCitasContext.cs",
@@ -146,12 +143,11 @@
               "RelativeToolTip": "Models\\SistemaCitasContext.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAwAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T06:57:13.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T06:57:13.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "HorariosEmpleadoController.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\HorariosEmpleadoController.cs",
               "RelativeDocumentMoniker": "Controllers\\HorariosEmpleadoController.cs",
@@ -159,12 +155,11 @@
               "RelativeToolTip": "Controllers\\HorariosEmpleadoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:18:15.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T02:18:15.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "HistorialCambiosCitaController.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\HistorialCambiosCitaController.cs",
               "RelativeDocumentMoniker": "Controllers\\HistorialCambiosCitaController.cs",
@@ -172,12 +167,11 @@
               "RelativeToolTip": "Controllers\\HistorialCambiosCitaController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAIwGgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:22:54.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T02:22:54.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "HistorialCambiosCitaDto.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\HistorialCambiosCitaDto.cs",
               "RelativeDocumentMoniker": "Dto\\HistorialCambiosCitaDto.cs",
@@ -185,12 +179,11 @@
               "RelativeToolTip": "Dto\\HistorialCambiosCitaDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:22:39.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T02:22:39.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CitaController.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\CitaController.cs",
               "RelativeDocumentMoniker": "Controllers\\CitaController.cs",
@@ -198,12 +191,11 @@
               "RelativeToolTip": "Controllers\\CitaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:12:39.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T02:12:39.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CitaDto.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\CitaDto.cs",
               "RelativeDocumentMoniker": "Dto\\CitaDto.cs",
@@ -211,12 +203,11 @@
               "RelativeToolTip": "Dto\\CitaDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:12:16.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T02:12:16.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "EmpleadoController.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\EmpleadoController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmpleadoController.cs",
@@ -224,12 +215,11 @@
               "RelativeToolTip": "Controllers\\EmpleadoController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAwwGwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:55:29.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:55:29.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EmpleadoDto.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\EmpleadoDto.cs",
               "RelativeDocumentMoniker": "Dto\\EmpleadoDto.cs",
@@ -237,12 +227,11 @@
               "RelativeToolTip": "Dto\\EmpleadoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:54:16.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:54:16.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
@@ -250,12 +239,11 @@
               "RelativeToolTip": "Controllers\\ClienteController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAwwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:48:38.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:48:38.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ClienteDto.cs",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\Dto\\ClienteDto.cs",
               "RelativeDocumentMoniker": "Dto\\ClienteDto.cs",
@@ -263,12 +251,11 @@
               "RelativeToolTip": "Dto\\ClienteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:47:46.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:47:46.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\sistemecitasAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

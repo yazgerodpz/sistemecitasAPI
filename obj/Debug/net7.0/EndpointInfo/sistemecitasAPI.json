@@ -5,6 +5,134 @@
     "version": "1.0"
   },
   "paths": {
+    "/{id}": {
+      "get": {
+        "tags": [
+          "Servicios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServicioDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServicioDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServicioDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Servicios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "IdServicio",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Nombre",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Descripcion",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "DuracionMinutos",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Precio",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Servicios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/UsuariosAdmin": {
       "get": {
         "tags": [
@@ -18,7 +146,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/UsuarioAdminDto"
+                    "$ref": "#/components/schemas/UsuariosAdminDto"
                   }
                 }
               },
@@ -26,7 +154,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/UsuarioAdminDto"
+                    "$ref": "#/components/schemas/UsuariosAdminDto"
                   }
                 }
               },
@@ -34,7 +162,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/UsuarioAdminDto"
+                    "$ref": "#/components/schemas/UsuariosAdminDto"
                   }
                 }
               }
@@ -50,17 +178,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UsuarioAdminDto"
+                "$ref": "#/components/schemas/UsuariosAdminDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UsuarioAdminDto"
+                "$ref": "#/components/schemas/UsuariosAdminDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UsuarioAdminDto"
+                "$ref": "#/components/schemas/UsuariosAdminDto"
               }
             }
           }
@@ -71,17 +199,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/UsuarioAdminDto"
+                  "$ref": "#/components/schemas/UsuariosAdminDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UsuarioAdminDto"
+                  "$ref": "#/components/schemas/UsuariosAdminDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UsuarioAdminDto"
+                  "$ref": "#/components/schemas/UsuariosAdminDto"
                 }
               }
             }
@@ -112,17 +240,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/UsuarioAdminDto"
+                  "$ref": "#/components/schemas/UsuariosAdminDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UsuarioAdminDto"
+                  "$ref": "#/components/schemas/UsuariosAdminDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UsuarioAdminDto"
+                  "$ref": "#/components/schemas/UsuariosAdminDto"
                 }
               }
             }
@@ -149,17 +277,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UsuarioAdminDto"
+                "$ref": "#/components/schemas/UsuariosAdminDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UsuarioAdminDto"
+                "$ref": "#/components/schemas/UsuariosAdminDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UsuarioAdminDto"
+                "$ref": "#/components/schemas/UsuariosAdminDto"
               }
             }
           }
@@ -196,7 +324,33 @@
   },
   "components": {
     "schemas": {
-      "UsuarioAdminDto": {
+      "ServicioDto": {
+        "type": "object",
+        "properties": {
+          "idServicio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "duracionMinutos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "precio": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuariosAdminDto": {
         "type": "object",
         "properties": {
           "idUsuario": {

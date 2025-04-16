@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("sistemecitasAPI")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0cb10a958d979c9d38b337309c7c8f20b9c9571")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ab3ad2b262546c108f096abaa4fe56d0bde4aba")]
 [assembly: System.Reflection.AssemblyProductAttribute("sistemecitasAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sistemecitasAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

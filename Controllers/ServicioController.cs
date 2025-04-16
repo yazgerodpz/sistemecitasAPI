@@ -5,11 +5,11 @@ using sistemecitasAPI.Models;
 
 namespace sistemecitasAPI.Controllers
 {
-    public class ServicioController : ControllerBase
+    public class ServiciosController : ControllerBase
     {
         private SistemaCitasContext _context;
 
-        public ServicioController(SistemaCitasContext context)
+        public ServiciosController(SistemaCitasContext context)
         {
             _context = context;
         }
@@ -18,7 +18,25 @@ namespace sistemecitasAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ServicioDto>>> GetServicios()
         {
-            return await _context.Servicios
+            var servicios = await _context.Servicios
+                .Select(s => new ServicioDto
+                {
+                    IdServicio = s.IdServicio,
+                    Nombre = s.Nombre,
+                    Descripcion = s.Descripcion,
+                    DuracionMinutos = s.DuracionMinutos,
+                    Precio = s.Precio
+                }).ToListAsync();
+
+            return Ok(servicios);
+        }
+
+        // GET: api/Servicios/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ServicioDto>> GetServicio(int id)
+        {
+            var servicio = await _context.Servicios
+                .Where(s => s.IdServicio == id)
                 .Select(s => new ServicioDto
                 {
                     IdServicio = s.IdServicio,
@@ -27,66 +45,56 @@ namespace sistemecitasAPI.Controllers
                     DuracionMinutos = s.DuracionMinutos,
                     Precio = s.Precio
                 })
-                .ToListAsync();
-        }
-
-        // GET: api/Servicios/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<ServicioDto>> GetServicio(int id)
-        {
-            var servicio = await _context.Servicios.FindAsync(id);
+                .FirstOrDefaultAsync();
 
             if (servicio == null)
-                return NotFound();
-
-            var dto = new ServicioDto
             {
-                IdServicio = servicio.IdServicio,
-                Nombre = servicio.Nombre,
-                Descripcion = servicio.Descripcion,
-                DuracionMinutos = servicio.DuracionMinutos,
-                Precio = servicio.Precio
-            };
+                return NotFound();
+            }
 
-            return dto;
+            return Ok(servicio);
         }
 
         // POST: api/Servicios
         [HttpPost]
-        public async Task<ActionResult<ServicioDto>> PostServicio(ServicioDto dto)
+        public async Task<ActionResult<ServicioDto>> PostServicio(ServicioDto servicioDto)
         {
             var servicio = new Servicio
             {
-                Nombre = dto.Nombre,
-                Descripcion = dto.Descripcion,
-                DuracionMinutos = dto.DuracionMinutos,
-                Precio = dto.Precio
+                Nombre = servicioDto.Nombre,
+                Descripcion = servicioDto.Descripcion,
+                DuracionMinutos = servicioDto.DuracionMinutos,
+                Precio = servicioDto.Precio
             };
 
             _context.Servicios.Add(servicio);
             await _context.SaveChangesAsync();
 
-            dto.IdServicio = servicio.IdServicio;
+            servicioDto.IdServicio = servicio.IdServicio;
 
-            return CreatedAtAction(nameof(GetServicio), new { id = dto.IdServicio }, dto);
+            return CreatedAtAction(nameof(GetServicio), new { id = servicio.IdServicio }, servicioDto);
         }
 
         // PUT: api/Servicios/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutServicio(int id, ServicioDto dto)
+        public async Task<IActionResult> PutServicio(int id, ServicioDto servicioDto)
         {
-            if (id != dto.IdServicio)
+            if (id != servicioDto.IdServicio)
+            {
                 return BadRequest();
+            }
 
             var servicio = await _context.Servicios.FindAsync(id);
 
             if (servicio == null)
+            {
                 return NotFound();
+            }
 
-            servicio.Nombre = dto.Nombre;
-            servicio.Descripcion = dto.Descripcion;
-            servicio.DuracionMinutos = dto.DuracionMinutos;
-            servicio.Precio = dto.Precio;
+            servicio.Nombre = servicioDto.Nombre;
+            servicio.Descripcion = servicioDto.Descripcion;
+            servicio.DuracionMinutos = servicioDto.DuracionMinutos;
+            servicio.Precio = servicioDto.Precio;
 
             await _context.SaveChangesAsync();
 
@@ -98,9 +106,10 @@ namespace sistemecitasAPI.Controllers
         public async Task<IActionResult> DeleteServicio(int id)
         {
             var servicio = await _context.Servicios.FindAsync(id);
-
             if (servicio == null)
+            {
                 return NotFound();
+            }
 
             _context.Servicios.Remove(servicio);
             await _context.SaveChangesAsync();
@@ -108,5 +117,4 @@ namespace sistemecitasAPI.Controllers
             return NoContent();
         }
     }
-
 }
